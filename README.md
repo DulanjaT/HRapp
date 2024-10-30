@@ -1,8 +1,25 @@
-# React + Vite
+# This is a model app to display staff members on a dashboard fot the use of HR department.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Core features
 
-Currently, two official plugins are available:
+This app can render users with their name, title , startdate and location.
+Then the HR can promote members to be Team Leads.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies used
+
+ReactJS
+CSS
+HTML
+
+## Usage Guide
+
+clone this repository to your local.
+then on the terminal :
+
+1. npm create vite@latest
+2. npm install
+3. npm run dev
+
+## Reflection
+
+Learned to use UseStates with multiple files.

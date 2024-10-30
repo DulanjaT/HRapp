@@ -1,17 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import EmployeeList from "./components/EmployeeList/EmployeeList.jsx";
+import { Footer } from "./components/Footer/Footer.jsx";
+import { Header } from "./components/Header/Header.jsx";
 
 function App() {
-  
-
   return (
-    
-      <div> </div>
-       
-    
+    <div>
+      <Header />
+      <EmployeeList />
+      <Footer />
+    </div>
   );
 }
 
-export default App
+export default App;
